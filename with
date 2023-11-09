@@ -1,0 +1,7 @@
+ with open('accounts.txt', 'r', encoding='utf-8-sig') as file:
+        accounts_list: list[str] = [validate_token(input_string=row.strip()) for row in file]
+
+    accounts_list: list = [item for item in accounts_list if item is not None]
+
+    with open('proxies.txt', 'r', encoding='utf-8-sig') as file:
+        proxies_list: list[str] = [row.strip() for row in file]
