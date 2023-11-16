@@ -6,7 +6,7 @@
     with open('proxies.txt', 'r', encoding='utf-8-sig') as file:
         proxies_list: list[str] = [row.strip() for row in file]
 
-
+#come
 #2
 case 2:
             subs_range: str = input('Введите диапазон необходимого количества подписок (ex: 3-5, 4-10, 5, 10): ')
